@@ -505,9 +505,12 @@ header .navbar {
 
 .product-item .down-content h4 {
 	font-size: 20px;
-	color: #558aa0;
+	color: #222;
 	margin-bottom: 0;
 	text-transform: uppercase;
+}
+.product-item .down-content h4:hover {
+	color: #558aa0;
 }
 
 .product-item .down-content h6 {
@@ -575,7 +578,7 @@ header .navbar {
 
 .best-features h4 {
 	font-size: 30px;
-	color: #558aa0;
+	color: #333;
 	margin-bottom: 20px;
 }
 
@@ -1160,6 +1163,9 @@ footer .inner-content p a {
 		font-size: 25px !important;
 		padding: 10px 35px !important;
 	}
+	.filled-button.online-booking-btn.text-small{
+		font-size: 17px !important;
+	}
 	.phone-booking{
 		font-size: 48px;
 		color: white;
@@ -1198,6 +1204,14 @@ footer .inner-content p a {
 	.product-item .down-content h4{
 		font-size: 20px;
 	}
+	.title-big{
+		font-size: 20px !important;
+		letter-spacing: 3px;
+	}
+	.filled-button.online-booking-btn.text-small{
+		font-size: 25px !important;
+		padding: 10px 35px !important;
+	}
 }
 @media (min-width: 1440px) {
     /*header .navbar{*/
@@ -1211,6 +1225,10 @@ footer .inner-content p a {
     }
 	.left-content h4{
 		font-size: 40px;
+	}
+	.title-big{
+		font-size: 25px !important;
+		letter-spacing: 5px;
 	}
 }
 @media (max-width: 480px){
@@ -1357,11 +1375,20 @@ b{
 	border-top: 1px solid rgba(255,255,255,0.1);
 }
 .title-big{
-	font-size: 30px;
+	font-size: 29px;
 	color: #b59a4d ;
 	font-weight: 300;
 	padding: 16px 0 16px 16px;
 	letter-spacing: 4px;
+	font-family: 'Marcellus', serif;
+	text-transform: uppercase;
+}
+.title-big-sub{
+	font-size: 22px;
+	color: #558aa0 ;
+	font-weight: 300;
+	padding: 0 0 0 16px;
+	letter-spacing: 1px;
 	font-family: 'Marcellus', serif;
 	text-transform: uppercase;
 }
@@ -1425,4 +1452,10 @@ b{
 }
 h4.font-small{
 	font-size: 1.5rem;
+}
+.line-dash-small{
+	margin: 20px 0;
+	border: 1px dotted #dedede;
+	height: 0.5px;
+	width: 100%;
 }
